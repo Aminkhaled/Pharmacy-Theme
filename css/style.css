@@ -1,0 +1,154 @@
+*, body {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+/*
+=====================
+*** Header ***
+=====================
+*/
+header.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 2px 8px #e8e8eb; }
+  header.header .social-media .list-inline-item:not(:last-child) {
+    margin-right: 10px; }
+  header.header .social-media [class*=item] a {
+    display: block; }
+  header.header .social-media .fa-2x {
+    font-size: 25px;
+    color: #a8a8a8; }
+  header.header .social-media .item-1 a i {
+    color: #00a855; }
+  header.header .social-media .item-2 a {
+    font-size: 14px;
+    margin-right: 30px; }
+    header.header .social-media .item-2 a:first-child {
+      color: black;
+      font-weight: bold; }
+  header.header .logo img {
+    max-width: 100%; }
+  header.header form {
+    display: inline; }
+  header.header .form input[type=search] {
+    width: 60%;
+    margin-top: 20px;
+    border: 2px solid #00a855;
+    background-color: #f9f9f9; }
+  header.header .form a {
+    margin-left: -4px; }
+  header.header .form a i.fa-search {
+    color: white;
+    background: #00a855;
+    padding: 7px 10px; }
+  header.header .form form.upload {
+    margin-left: 20px; }
+    header.header .form form.upload a {
+      text-transform: uppercase;
+      font-size: 15px;
+      color: #00a855;
+      border: 1px solid #00a855;
+      padding: 10px;
+      border-radius: 10px; }
+  header.header .account {
+    margin-top: 15px;
+    background-color: #f0f0f0; }
+    header.header .account .dropdown {
+      display: inline; }
+    header.header .account .dropdown .btn {
+      background-color: transparent;
+      color: #666666;
+      cursor: pointer;
+      outline: none !important; }
+      header.header .account .dropdown .btn:focus {
+        outline: none !important; }
+    header.header .account [type="button"]::-moz-focus-inner, header.header .account [type="reset"]::-moz-focus-inner, header.header .account [type="submit"]::-moz-focus-inner, header.header .account button::-moz-focus-inner {
+      border-style: none;
+      padding: 3px; }
+    header.header .account .wishlist {
+      display: inline;
+      margin-left: 5px;
+      position: relative;
+      top: 5px; }
+      header.header .account .wishlist .fa-heart-o {
+        font-size: 25px;
+        color: #4bb989; }
+      header.header .account .wishlist a {
+        color: black; }
+    header.header .account .cart {
+      display: inline;
+      cursor: pointer;
+      position: relative; }
+      header.header .account .cart .dropdown-toggle::after {
+        display: none; }
+      header.header .account .cart button, header.header .account .cart [type=button] {
+        -webkit-appearance: none; }
+      header.header .account .cart .fa-cart-plus {
+        font-size: 25px;
+        color: #4bb989;
+        position: absolute;
+        z-index: 111;
+        top: 0; }
+      header.header .account .cart span {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: red;
+        font-size: 18px;
+        border-radius: 50%;
+        color: white;
+        top: -7px;
+        left: 35px; }
+      header.header .account .cart a {
+        color: black; }
+
+/*
+======================
+*** tob-bar ***
+======================
+*/
+.top-bar .categories {
+  width: 80%;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  .top-bar .categories .card {
+    border: none;
+    background-color: transparent; }
+    .top-bar .categories .card .card-header {
+      background-color: transparent;
+      border-bottom: 1px solid silver;
+      border-top: none; }
+      .top-bar .categories .card .card-header:hover {
+        background-color: rgba(0, 0, 0, 0.125); }
+      .top-bar .categories .card .card-header:hover h5.mb-0 a {
+        color: #4bb989; }
+    .top-bar .categories .card .card-block ul li {
+      list-style: circle; }
+      .top-bar .categories .card .card-block ul li a {
+        color: #666666;
+        font-family: sans-serif,Serif; }
+        .top-bar .categories .card .card-block ul li a:hover {
+          color: #4bb989; }
+  .top-bar .categories h4 {
+    padding-top: 15px;
+    color: #4bb989;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #4bb989; }
+  .top-bar .categories h5.mb-0 a {
+    color: #666666;
+    text-decoration: none;
+    font-family: sans-serif,Serif;
+    text-transform: uppercase;
+    font-size: 16px; }
+    .top-bar .categories h5.mb-0 a:hover {
+      color: #4bb989;
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
