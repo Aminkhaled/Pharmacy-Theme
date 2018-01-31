@@ -244,7 +244,11 @@ products
     padding: 35px;
     margin-left: 12%;
     height: 500px;
-    
+    h2{
+      color: gray;
+      padding-bottom: 10px;
+      font-size: 1.1rem;
+    }
     ul li{
       border: none;
     }
@@ -259,6 +263,18 @@ products
         font-size: 15px;
         li{
           margin-bottom: 15px;
+          .regular-price,.discount-price{
+            color: black;
+            font-family:sans-serif, Serif;
+            font-weight: bold;
+          }
+          a span{
+            color: #78bce1;
+            font-size: 20px;
+            &:first-child{
+              margin-right: 20px;
+            }
+          }
         }
       }
       h5{

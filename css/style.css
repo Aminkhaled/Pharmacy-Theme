@@ -178,6 +178,10 @@ products
     padding: 35px;
     margin-left: 12%;
     height: 500px; }
+    .products #thumbs2 h2 {
+      color: gray;
+      padding-bottom: 10px;
+      font-size: 1.1rem; }
     .products #thumbs2 ul li {
       border: none; }
     .products #thumbs2 .product-info {
@@ -190,6 +194,15 @@ products
         font-size: 15px; }
         .products #thumbs2 .product-info ul.product-info-price li {
           margin-bottom: 15px; }
+          .products #thumbs2 .product-info ul.product-info-price li .regular-price, .products #thumbs2 .product-info ul.product-info-price li .discount-price {
+            color: black;
+            font-family: sans-serif, Serif;
+            font-weight: bold; }
+          .products #thumbs2 .product-info ul.product-info-price li a span {
+            color: #78bce1;
+            font-size: 20px; }
+            .products #thumbs2 .product-info ul.product-info-price li a span:first-child {
+              margin-right: 20px; }
       .products #thumbs2 .product-info h5 {
         text-align: center; }
       .products #thumbs2 .product-info span {
