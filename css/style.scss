@@ -30,7 +30,10 @@ header.header{
     color: #a8a8a8;
   }
   .item-1 a i{
-    color: #00a855;
+      background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
   }
   .item-2 a{
     font-size: 14px;
@@ -63,7 +66,7 @@ header.header{
     }
     a i.fa-search{
       color: white;
-      background: #00a855;
+      background: linear-gradient(to right, #44b87a, #4ba6db) !important;;
       padding: 7px 10px;
     }
     form.upload{
@@ -160,6 +163,7 @@ header.header{
 .top-bar{
   .categories{
     width: 80%;
+    margin-left: 20%;
     border-left: 1px solid rgba(0,0,0,.125);
     border-right: 1px solid rgba(0,0,0,.125);
     border-bottom: 1px solid rgba(0,0,0,.125);
@@ -203,7 +207,7 @@ header.header{
       text-decoration: none;
       font-family: sans-serif,Serif;
       text-transform: uppercase;
-      font-size: 16px;
+      font-size: 14px;
       &:hover{
         color: #4bb989;
         text-decoration: none;
@@ -213,4 +217,74 @@ header.header{
     }
     
   }
+  /*
+===================
+.img-fluid
+===================
+*/
+  .carousel{
+    .img-fluid{
+      height: 80vh;
+    }
+  }
+}
+/*
+End of top-bar
+*/
+
+/*
+============
+products
+============
+*/
+.products{
+  padding: 100px 0;
+  position: relative;
+  #thumbs2{
+    padding: 35px;
+    margin-left: 12%;
+    height: 500px;
+    
+    ul li{
+      border: none;
+    }
+
+    .product-info{
+      z-index: 99;
+      position: absolute;
+      top: 103%;
+      left: 18%;
+      ul.product-info-price{
+        display: block;
+        font-size: 15px;
+        li{
+          margin-bottom: 15px;
+        }
+      }
+      h5{
+        text-align: center;
+      }
+      span{
+        color: black;
+        z-index: 999;
+      }
+    }
+    ul li.active{
+      border: none;
+    }
+    #thumbs2-prev,#thumbs2-next{
+    padding: 10px;
+      border: 1px solid #4bb989;
+      width: 15%;
+      margin-left: 30%;
+      
+    }
+    #thumbs2-prev::before, #thumbs2-next::before{
+      width: 10px;
+      border-left: 2px solid #4bb989;
+      border-top: 2px solid #4bb989;
+         margin-left: -6px;
+    }
+  }
+
 }
