@@ -161,7 +161,7 @@ header.header {
         color: #4bb989;
         text-decoration: none; }
   .top-bar .carousel .img-fluid {
-    height: 80vh; }
+    height: 78.5vh; }
 
 /*
 End of top-bar
@@ -173,7 +173,12 @@ products
 */
 .products {
   padding: 100px 0;
-  position: relative; }
+  position: relative;
+  /*
+============
+new products
+============
+*/ }
   .products #thumbs2 {
     padding: 35px;
     margin-left: 12%;
@@ -220,5 +225,31 @@ products
       border-left: 2px solid #4bb989;
       border-top: 2px solid #4bb989;
       margin-left: -6px; }
+  .products .new-products h2 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; }
+  .products .new-products .nbs-flexisel-item {
+    height: 230px; }
+    .products .new-products .nbs-flexisel-item:hover {
+      border: 3px solid silver; }
+    .products .new-products .nbs-flexisel-item .info-new-product h4 {
+      font-size: 1rem;
+      margin-bottom: 15px; }
+    .products .new-products .nbs-flexisel-item .info-new-product .fa-heart-o {
+      margin-right: 30px;
+      font-size: 25px; }
+      .products .new-products .nbs-flexisel-item .info-new-product .fa-heart-o:hover {
+        color: red; }
+    .products .new-products .nbs-flexisel-item .info-new-product .fa-cart-plus {
+      margin-left: 30px;
+      font-size: 25px; }
+      .products .new-products .nbs-flexisel-item .info-new-product .fa-cart-plus:hover {
+        background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */

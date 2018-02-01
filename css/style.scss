@@ -224,7 +224,7 @@ header.header{
 */
   .carousel{
     .img-fluid{
-      height: 80vh;
+      height: 78.5vh;
     }
   }
 }
@@ -302,5 +302,53 @@ products
          margin-left: -6px;
     }
   }
+  /*
+============
+new products
+============
+*/
+  .new-products{
+    h2{
+      background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }
+    .nbs-flexisel-item{
+      height: 230px;
+      &:hover{
+       border: 3px solid silver;
+      }
 
+      .info-new-product{
+        h4{
+          font-size: 1rem;
+          margin-bottom: 15px;
+        }
+        .fa-heart-o{
+          margin-right: 30px;
+          font-size: 25px;
+          &:hover{
+            color: red;
+          }
+        }
+        .fa-cart-plus{
+          margin-left: 30px;
+        
+          font-size: 25px;
+          &:hover{
+            background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+            background-clip: border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+      
+    }
+  }
 }
+
+
+
