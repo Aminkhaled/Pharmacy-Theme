@@ -5,7 +5,8 @@
 
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background-color: #f6f6f6; }
 
 /*
 =====================
@@ -230,9 +231,12 @@ new products
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 1.3rem; }
   .products .new-products .nbs-flexisel-item {
-    height: 230px; }
+    height: 230px;
+    background-color: white;
+    margin: 0 5px; }
     .products .new-products .nbs-flexisel-item:hover {
       border: 3px solid silver; }
     .products .new-products .nbs-flexisel-item .info-new-product h4 {
@@ -251,5 +255,161 @@ new products
         background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
+  .products .popular-products {
+    padding-top: 40px; }
+    .products .popular-products h2 {
+      background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      font-size: 1.5rem; }
+    .products .popular-products .nbs-flexisel-item {
+      height: 230px;
+      background-color: white;
+      margin: 0 5px; }
+      .products .popular-products .nbs-flexisel-item:hover {
+        border: 3px solid silver; }
+      .products .popular-products .nbs-flexisel-item .info-new-product h4 {
+        font-size: 1rem;
+        margin-bottom: 15px; }
+      .products .popular-products .nbs-flexisel-item .info-new-product .fa-heart-o {
+        margin-right: 30px;
+        font-size: 25px; }
+        .products .popular-products .nbs-flexisel-item .info-new-product .fa-heart-o:hover {
+          color: red; }
+      .products .popular-products .nbs-flexisel-item .info-new-product .fa-cart-plus {
+        margin-left: 30px;
+        font-size: 25px; }
+        .products .popular-products .nbs-flexisel-item .info-new-product .fa-cart-plus:hover {
+          background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+          background-clip: border-box;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent; }
+
+/*
+==============
+End of products
+==============
+*/
+/*
+============
+disease-effects
+============
+*/
+.disease-effects {
+  padding: 100px 0;
+  position: relative;
+  /*
+============
+new products
+============
+*/ }
+  .disease-effects #thumbs3 {
+    padding: 35px;
+    margin-left: 12%;
+    height: 500px; }
+    .disease-effects #thumbs3 h2 {
+      color: gray;
+      padding-bottom: 10px;
+      font-size: 1.1rem; }
+    .disease-effects #thumbs3 ul li {
+      border: none; }
+    .disease-effects #thumbs3 .product-info {
+      z-index: 99;
+      position: absolute;
+      top: 103%;
+      left: 18%; }
+      .disease-effects #thumbs3 .product-info ul.product-info-price {
+        display: block;
+        font-size: 15px; }
+        .disease-effects #thumbs3 .product-info ul.product-info-price li {
+          margin-bottom: 15px; }
+          .disease-effects #thumbs3 .product-info ul.product-info-price li .regular-price, .disease-effects #thumbs3 .product-info ul.product-info-price li .discount-price {
+            color: black;
+            font-family: sans-serif, Serif;
+            font-weight: bold; }
+          .disease-effects #thumbs3 .product-info ul.product-info-price li a span {
+            color: #78bce1;
+            font-size: 20px; }
+            .disease-effects #thumbs3 .product-info ul.product-info-price li a span:first-child {
+              margin-right: 20px; }
+      .disease-effects #thumbs3 .product-info h5 {
+        text-align: center; }
+      .disease-effects #thumbs3 .product-info span {
+        color: black;
+        z-index: 999; }
+    .disease-effects #thumbs3 ul li.active {
+      border: none; }
+    .disease-effects #thumbs3 #thumbs3-prev, .disease-effects #thumbs3 #thumbs3-next {
+      padding: 10px;
+      border: 1px solid #4bb989;
+      width: 15%;
+      margin-left: 30%; }
+    .disease-effects #thumbs3 #thumbs3-prev::before, .disease-effects #thumbs3 #thumbs3-next::before {
+      width: 10px;
+      border-left: 2px solid #4bb989;
+      border-top: 2px solid #4bb989;
+      margin-left: -6px; }
+  .disease-effects .new-products h2 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.3rem; }
+  .disease-effects .new-products .nbs-flexisel-item {
+    height: 230px;
+    background-color: white;
+    margin: 0 5px; }
+    .disease-effects .new-products .nbs-flexisel-item:hover {
+      border: 3px solid silver; }
+    .disease-effects .new-products .nbs-flexisel-item .info-new-product h4 {
+      font-size: 1rem;
+      margin-bottom: 15px; }
+    .disease-effects .new-products .nbs-flexisel-item .info-new-product .fa-heart-o {
+      margin-right: 30px;
+      font-size: 25px; }
+      .disease-effects .new-products .nbs-flexisel-item .info-new-product .fa-heart-o:hover {
+        color: red; }
+    .disease-effects .new-products .nbs-flexisel-item .info-new-product .fa-cart-plus {
+      margin-left: 30px;
+      font-size: 25px; }
+      .disease-effects .new-products .nbs-flexisel-item .info-new-product .fa-cart-plus:hover {
+        background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+  .disease-effects .popular-products {
+    padding-top: 40px; }
+    .disease-effects .popular-products h2 {
+      background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      font-size: 1.5rem; }
+    .disease-effects .popular-products .nbs-flexisel-item {
+      height: 230px;
+      background-color: white;
+      margin: 0 5px; }
+      .disease-effects .popular-products .nbs-flexisel-item:hover {
+        border: 3px solid silver; }
+      .disease-effects .popular-products .nbs-flexisel-item .info-new-product h4 {
+        font-size: 1rem;
+        margin-bottom: 15px; }
+      .disease-effects .popular-products .nbs-flexisel-item .info-new-product .fa-heart-o {
+        margin-right: 30px;
+        font-size: 25px; }
+        .disease-effects .popular-products .nbs-flexisel-item .info-new-product .fa-heart-o:hover {
+          color: red; }
+      .disease-effects .popular-products .nbs-flexisel-item .info-new-product .fa-cart-plus {
+        margin-left: 30px;
+        font-size: 25px; }
+        .disease-effects .popular-products .nbs-flexisel-item .info-new-product .fa-cart-plus:hover {
+          background: -webkit-gradient(linear, left top, left bottom, from(#44b78a), to(#4ba6db));
+          background-clip: border-box;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */
